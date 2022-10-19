@@ -24,7 +24,7 @@
     longitud decimal,
     ptje_nem decimal,
     psu_promlm decimal,
-    PRIMARY KEY((carrera), periodo, cedula)
+    PRIMARY KEY((carrera, estado), periodo, cedula)
     )
     WITH CLUSTERING ORDER BY (periodo DESC);
 
@@ -48,7 +48,7 @@
     longitud decimal,
     ptje_nem decimal,
     psu_promlm decimal,
-    PRIMARY KEY((region, carrera), periodo, cedula)
+    PRIMARY KEY((region, carrera, estado), periodo, cedula)
     )
     WITH CLUSTERING ORDER BY (periodo DESC);
 
@@ -72,6 +72,6 @@
     longitud decimal,
     ptje_nem decimal,
     psu_promlm decimal,
-    PRIMARY KEY((facultad), psu_promlm, cedula)
+    PRIMARY KEY((facultad, estado), psu_promlm, cedula)
     )
     WITH CLUSTERING ORDER BY (psu_promlm DESC);
