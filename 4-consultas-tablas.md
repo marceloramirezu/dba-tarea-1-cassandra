@@ -7,3 +7,4 @@ SELECT * FROM postulaciones_carrera_region WHERE carrera='INGENIERIA CIVIL INFOR
 
 # Consulta 3 (facultad-puntaje_psu)
 SELECT * FROM postulaciones_facultad_ptje WHERE facultad='CIENCIAS DE LA SALUD';
+

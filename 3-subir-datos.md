@@ -2,7 +2,7 @@
 # SUBIR DATOS
 
 ## copiar archivo postulaciones.cdv dentro del contenedor de docker
-docker cp ./postulaciones.csv nodo1:/postulaciones.csv
+docker cp ./data/postulaciones.csv nodo1:/postulaciones.csv
 
 ## copiar archivos de cdv a cassandra
 ### entrar a contenedor de docker del nodo 1
