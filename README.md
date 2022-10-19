@@ -12,12 +12,12 @@
 # CONSULTAS A REALIZAR
 a. Devolver todos los postulantes matriculados en la carrera de medicina
 ordenados por periodo. 
-(carrera, periodo)
+(carrera, estado, periodo)
 
 b. Devolver todos los postulantes matriculados provenientes de la región del
 Maule en la carrera Ingeniería Civil Informática ordenados por periodo.
-(region, periodo)
+(region, matriculados, carrera, periodo)
 
 c. Devolver todos los postulantes matriculados en la facultad de Ciencias de la
 Salud ordenado por puntaje PSU.
-(matriculados, facultad, puntaje psu)
+(matriculados, matriculados, facultad, puntaje psu)
